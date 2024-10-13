@@ -8,6 +8,11 @@ const ar: Translations = {
     ourClients:"عملائنا",
     English:"انكليزي",
     Arabic:"عربي",
+ Name:"الاسم",
+ Email:"الايميل",
+ PhoneNumber:"رقم الهاتف",
+ ServicesChoose:"الخدمة",
+ PreferredAppointmentTime:"الوقت المناسب للاتصال",
  
     
 }

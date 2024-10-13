@@ -8,8 +8,12 @@ const en: Translations = {
   ourClients: "Our Clients",
   English: "English",
   Arabic: "Arabic",
+ Name:"Name",
+ Email:"Email",
+ ServicesChoose:"Service",
+ PhoneNumber:"Phone Number",
+ PreferredAppointmentTime:"Preferred Appointment Time",
  
-  
 };
 
 export default en;

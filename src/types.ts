@@ -10,5 +10,10 @@ export interface Translations{
     ourClients:string;
     English:string;
     Arabic:string;
+    Name:string;
+    Email:string;
+    PhoneNumber:string;
+    ServicesChoose:string;
+    PreferredAppointmentTime:string;
     
 }
