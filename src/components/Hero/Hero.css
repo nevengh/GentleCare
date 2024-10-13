@@ -1,6 +1,6 @@
 .Hero {
     position: relative;
-    background-image: url(../../assets/images/heroSlide.jpg);
+    background-image: url(../../assets/images/diana-polekhina-F68HtpYHu_w-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,6 +26,7 @@
     width: 100%;
     max-width: 500px; /* Adjust width for larger screens */
     /* padding: 10px 15px;
+    box-shadow: 0 2px 8px #0000006f;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%); */
     border-radius: 10px;
     text-align: center;
@@ -33,7 +34,8 @@
 
 .headlineTitle {
     padding: 10px 15px;
-    background: linear-gradient(-135deg, rgba(182, 182, 181, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+    /* background: linear-gradient(-135deg, rgba(182, 182, 181, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%); */
+    box-shadow: 0 2px 8px #0000006f;
     font-family: var(--Monteserat-font);
     font-size: 2rem; /* Adjust the size for readability */
     margin: 0 auto;
@@ -46,7 +48,8 @@
     line-height: 30px;
     border-radius: 4px;
     padding: 10px 15px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+    box-shadow: 0 2px 8px #0000006f;
+    /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%); */
     margin-top: 20px;
     font-family: var(--MyriadPro-font);
     font-size: 1.2rem; /* Adjust font size for subheading */

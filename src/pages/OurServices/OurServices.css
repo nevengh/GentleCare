@@ -1,0 +1,26 @@
+.OurServices{
+    width: 100%;
+    background-color: var(--bs--offwhite);
+    padding: 1rem;
+    margin-top: 100px;
+}
+.OurServices_Container{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+.OurServices_Heading{
+    text-align: center;
+    color: #383230;
+    font-family: var(--Monteserat-font);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    text-size-adjust: 12px;
+}
