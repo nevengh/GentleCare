@@ -6,7 +6,7 @@
 }
 .OurServices_Container{
     width: 80%;
-    margin: 20px auto;
+    margin: 60px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,13 +14,14 @@
     flex-wrap: wrap;
     border: 1px solid red;
 }
-.OurServices_Heading{
+.OurServices_Heading,.gallery_head{
     text-align: center;
     color: #383230;
     font-family: var(--Monteserat-font);
-    font-weight: 600;
+    font-size: 64px;
+    font-weight: 700;
     text-decoration: underline;
     text-decoration-thickness: 3px;
-    text-underline-offset: 5px;
+    text-underline-offset: 12px;
     text-size-adjust: 12px;
 }

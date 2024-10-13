@@ -26,16 +26,16 @@ const Header = () => {
             </div>
             <div className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
                 <div className="nav-links">
-                    <a href="#home">{translations.Home}</a>
+                    <a href="#hero">{translations.Home}</a>
                 </div>
                 <div className="nav-links">
                     <a href="#about">{translations.About}</a>
                 </div>
                 <div className="nav-links">
-                    <a href="#services">{translations.Services}</a>
+                    <a href="#OurServices">{translations.Services}</a>
                 </div>
                 <div className="nav-links">
-                    <a href="#ourClients">{translations.ourClients}</a>
+                    <a href="#gallery">{translations.ourClients}</a>
                 </div>
                 <div className="nav-links">
                     <a href="#contact">{translations.ContactUs}</a>

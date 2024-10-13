@@ -4,6 +4,8 @@ import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import { LanguageProvider } from './LanguageContext'
 import OurServices from './pages/OurServices/OurServices'
+import PhotosGallery from './pages/PhotosGallery/PhotosGallery'
+
 const App = () => {
   return (
     <div className='App'>
@@ -14,6 +16,9 @@ const App = () => {
         </div>
         <div id="OurServices">
           <OurServices/>
+        </div>
+        <div id="gallery">
+          <PhotosGallery/>
         </div>
       </LanguageProvider>
     </div>

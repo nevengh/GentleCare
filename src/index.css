@@ -38,3 +38,9 @@
   font-weight: bold;
   font-style: normal;
 }
+
+
+#Hero,
+#OurServices {
+  scroll-margin-top: 100px; /* Adjust this value based on your header height */
+}
