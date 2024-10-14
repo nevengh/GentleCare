@@ -13,7 +13,7 @@ const ar: Translations = {
  PhoneNumber:"رقم الهاتف",
  ServicesChoose:"الخدمة",
  PreferredAppointmentTime:"الوقت المناسب للاتصال",
- 
+ RequestConsultation:""
     
 }
 

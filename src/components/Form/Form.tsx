@@ -56,7 +56,7 @@ const Form = () => {
                     </div>
                 </div>
 
-                <button className='submit'>Request a Free Consultation</button>
+                <button className='submit'>{translations.RequestConsultation}</button>
             </form>
         </div>
     )

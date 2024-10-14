@@ -12,11 +12,11 @@
     align-items: center;
     gap: 30px;
     flex-wrap: wrap;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
-.OurServices_Heading,.gallery_head{
+.OurServices_Heading, .gallery_head {
     text-align: center;
-    color: #383230;
+    color: #47230E;
     font-family: var(--Monteserat-font);
     font-size: 64px;
     font-weight: 700;
@@ -24,4 +24,5 @@
     text-decoration-thickness: 3px;
     text-underline-offset: 12px;
     text-size-adjust: 12px;
+    text-shadow: 0 4px 8px rgba(71, 35, 14, 0.3); /* إضافة الظل هنا */
 }

@@ -15,5 +15,5 @@ export interface Translations{
     PhoneNumber:string;
     ServicesChoose:string;
     PreferredAppointmentTime:string;
-    
+    RequestConsultation:string;
 }

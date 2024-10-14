@@ -7,26 +7,20 @@ const OurServices = () => {
         <h1 className="OurServices_Heading">Our Services</h1>
       <div className="OurServices_Container">
         <ServicesCard
-          title="Cown Tooth"
-          description="jqjldjlsdlqhjkdshqsdadsdladlkjskjdajkhdkshqdhjhsjkjhdk"
+          title="Dental Care"
+          description="Comprehensive dental solutions using the latest technology – from teeth whitening to advanced restorative procedures."
           img_alt="toothCrown"
           img_url={tooth}
         />
         <ServicesCard
-          title="Cown Tooth"
-          description="jqjldjlsdlqhjkdshqsdadsdladlkjskjdajkhdkshqdhjhsjkjhdk"
+          title="Skin Care"
+          description="Rejuvenate your skin with cutting-edge dermatological treatments designed for flawless beauty."
           img_alt="toothCrown"
           img_url={tooth}
         />
         <ServicesCard
-          title="Cown Tooth"
-          description="jqjldjlsdlqhjkdshqsdadsdladlkjskjdajkhdkshqdhjhsjkjhdk"
-          img_alt="toothCrown"
-          img_url={tooth}
-        />
-        <ServicesCard
-          title="Cown Tooth"
-          description="jqjldjlsdlqhjkdshqsdadsdladlkjskjdajkhdkshqdhjhsjkjhdk"
+          title="Advanced Dermatology"
+          description="Expert dermatology care, from acne treatment to anti-aging solutions, ensuring radiant skin for all."
           img_alt="toothCrown"
           img_url={tooth}
         />

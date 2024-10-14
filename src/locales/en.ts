@@ -13,6 +13,7 @@ const en: Translations = {
  ServicesChoose:"Service",
  PhoneNumber:"Phone Number",
  PreferredAppointmentTime:"Preferred Appointment Time",
+ RequestConsultation:"Request a Free Consultation",
  
 };
 
