@@ -1,0 +1,30 @@
+.ContactUs{
+    width: 100%;
+    background-color: var(--bs--offwhite);
+    padding: 1rem;
+    margin-top: 100px;
+}
+.book_title{
+    text-align: center;
+    color: var(--bs-beig);
+    font-family: var(--Monteserat-font);
+    margin-bottom: 30px;
+}
+.contact_title,.About h1{
+    text-align: center;
+    color: #47230E;
+    font-family: var(--Monteserat-font);
+    font-size: 64px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 12px;
+    text-size-adjust: 12px;
+    text-shadow: 0 4px 8px rgba(71, 35, 14, 0.3); /* إضافة الظل هنا */
+}
+.sales{
+    color: red;
+}
+.ContactUs .left-section h1{
+    line-height: 80px;
+}

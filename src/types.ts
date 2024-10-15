@@ -16,4 +16,13 @@ export interface Translations{
     ServicesChoose:string;
     PreferredAppointmentTime:string;
     RequestConsultation:string;
+    Gallery:string;
+    facebookicon:string;
+    instagramicon:string;
+    whatsAppicon:string;
+    EnterName:string;
+    enterEmal:string;
+    enterPhone:string;
+    aboutText:string;
+
 }

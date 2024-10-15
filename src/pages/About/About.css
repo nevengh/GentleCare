@@ -1,0 +1,13 @@
+.About{
+    margin-top: 100px;
+}
+.About .about_text{
+    text-align: center;
+    margin:50px auto;
+    width: 60%;
+    font-family: var(--MyriadPRo-font);
+    font-size: 22px;
+    line-height: 42px;
+    font-weight: 500;
+    color: var(--bs-gray);
+}

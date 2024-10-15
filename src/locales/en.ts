@@ -12,9 +12,18 @@ const en: Translations = {
  Email:"Email",
  ServicesChoose:"Service",
  PhoneNumber:"Phone Number",
- PreferredAppointmentTime:"Preferred Appointment Time",
+ PreferredAppointmentTime:"Preferred Time To Call",
  RequestConsultation:"Request a Free Consultation",
- 
+ Gallery:"Gallery",
+ facebookicon:"Facebook Icon Image",
+ instagramicon:"Instagram Icon Image",
+ whatsAppicon:"WhatsApp Icon Image",
+ EnterName:"Enter your Name...",
+ enterEmal:"example@example.com",
+ enterPhone:"Enter your Phone Number....",
+aboutText:"Gentle Care is more than just a medical center, they are your partner in your journey to health and well-being  Founded with a vision to provide exceptional dental services and cosmetic surgeries in Sharjah UAE We take pride in our commitment to patient-centered care, trust and quality",
+
+
 };
 
 export default en;

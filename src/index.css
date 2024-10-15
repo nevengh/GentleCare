@@ -41,6 +41,9 @@
 
 
 #Hero,
-#OurServices {
+#OurServices,
+#gallery,
+#contact,
+#about {
   scroll-margin-top: 100px; /* Adjust this value based on your header height */
 }

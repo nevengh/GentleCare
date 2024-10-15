@@ -1,50 +1,112 @@
-.slider-container {
-    width: 100%;
-    border: 1px solid black;
-    margin: 80px auto;
-}
-
-.PhotosGallery {
+.photos-gallery {
     width: 60%;
-    margin: 80px auto;
-}
-
-.slider_con {
-    width: 300px;
-    width: 80% !important;
-    height: 610px;
-    margin: 0 auto;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: space-between;
-    border: 1px solid red;
-    gap: 30px;
-    position: relative;
-}
-
-.top_section, .bottom_section {
-    width: 100%;
-    height: 50%;
-    position: relative;
-}
-
-.top_section img, .bottom_section img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* Styling for the text overlay */
-.section_text {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    margin: 50px auto;
+    text-align: center;
+    
+  }
+  
+  .gallery_head {
     font-size: 24px;
     font-weight: bold;
-    color: white;
-    z-index: 3;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add background for better visibility */
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: black !important;
-}
+    margin-bottom: 20px;
+  }
+  
+  .slider-item {
+    background-color: var(--bs-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 700px; /* لضبط طول الحاوية حسب حجم الصور */
+    padding: 10px;
+  }
+  
+  .before-image,
+  .after-image {
+    width: 100%;
+    flex: 1; /* يجعل الصورة تأخذ كامل المساحة المتاحة */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .before-image img{
+    margin-bottom: 10px;
+  }
+  .before-image img,
+  .after-image img {
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    object-fit: contain; /* لمنع ضغط الصورة */
+  }
+  
+  .slider-item .before-image img {
+    border-bottom: 2px solid #ddd; /* إضافة حد بين الصورتين */
+  }
+  
+  /* تخصيص الأسهم عند عدم الفعالية */
+  .slick-prev,
+  .slick-next {
+    background-color: var(--bs-beig) !important;
+    border-radius: 50% !important;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slick-prev.slick-disabled,
+  .slick-next.slick-disabled {
+    background-color: var(--bs-beig) !important; /* نفس اللون للأزرار غير الفعالة */
+    opacity: 0.5; /* تقليل الشفافية للأسهم غير الفعالة */
+    pointer-events: none; /* منع النقر على الأسهم غير الفعالة */
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: white; /* لون السهم الداخلي */
+    font-size: 18px;
+  }
+  /* تعديل المسافة عن السلايدر */
+.slick-prev {
+    left: -40px;
+  }
+  
+  .slick-next {
+    right: -40px;
+  }
+  
+  @media (max-width: 768px) {
+    .photos-gallery {
+      width: 90%;
+    }
+  
+    .before-image img,
+    .after-image img {
+      max-height: 200px;
+    }
+ /* تعديل المسافة عن السلايدر */
+.slick-prev {
+    left: -20px;
+  }
+  
+  .slick-next {
+    right: -20px;
+  }
+    .slick-prev,
+    .slick-next {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .slick-prev:before,
+    .slick-next:before {
+      font-size: 16px;
+    }
+  }
+  @media(max-width:520px){
+    .slider-item{
+        display: flex !important;
+    }
+  }

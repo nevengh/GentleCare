@@ -15,7 +15,9 @@
   cursor: pointer;
   animation: hoverEffect 2s ease infinite; /* Trigger the animation */
 }
-
+.ServiceCard_title{
+  font-size: 25px;
+}
 .title_con img {
   width: 60px;
   height: 60px;
@@ -27,9 +29,9 @@
   background-color: var(--bs-beig);
 }
 .ServicesCard {
-  width: 300px;
-  height: 300px;
-  padding: 15px 20px;
+  width: 400px;
+  height: 480px;
+  padding: 10px 20px;
   box-shadow: 0 2px 8px #0000006f;
   display: flex;
   flex-direction: column;
