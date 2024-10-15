@@ -1,5 +1,7 @@
 
 import './App.css'
+import BackToTop from './components/BackToTop/BackToTop'
+import Footer from './components/Footer/Footer'
 // import Header from './components/Header/Header'
 // import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
@@ -29,6 +31,8 @@ const App = () => {
         <div id="contact">
           <ContactUs/>
         </div>
+        <Footer/>
+        <BackToTop />
       </LanguageProvider>
     </div>
   )

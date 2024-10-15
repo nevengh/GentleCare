@@ -18,7 +18,7 @@ const ContactUs = () => {
         <div className="right-section">
             
           <form className="travel-form">
-          <h2 className='book_title'>Book An Appointment</h2>
+          <h2 className='book_title'>Book a Free Smile Evaluation</h2>
             <div className="form-group">
               <label htmlFor="name">{translations.Name}:</label>
               <input type="text" placeholder={translations.EnterName} id="name" />

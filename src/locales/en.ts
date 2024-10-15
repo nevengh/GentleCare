@@ -22,6 +22,10 @@ const en: Translations = {
  enterEmal:"example@example.com",
  enterPhone:"Enter your Phone Number....",
 aboutText:"Gentle Care is more than just a medical center, they are your partner in your journey to health and well-being  Founded with a vision to provide exceptional dental services and cosmetic surgeries in Sharjah UAE We take pride in our commitment to patient-centered care, trust and quality",
+CallUs:"Call Us",
+Address:"Address",
+EmailUs:"Mail",
+location:"Al Nakheel Tower _ Cornich ST _Al Majaz 1 Sharjah",
 
 
 };

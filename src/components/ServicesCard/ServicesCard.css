@@ -17,6 +17,7 @@
 }
 .ServiceCard_title{
   font-size: 25px;
+  font-family: var(--MyriadPRo-font);
 }
 .title_con img {
   width: 60px;
@@ -29,8 +30,8 @@
   background-color: var(--bs-beig);
 }
 .ServicesCard {
-  width: 400px;
-  height: 480px;
+  width: 361px;
+  height: 340px;
   padding: 10px 20px;
   box-shadow: 0 2px 8px #0000006f;
   display: flex;

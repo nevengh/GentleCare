@@ -24,5 +24,9 @@ export interface Translations{
     enterEmal:string;
     enterPhone:string;
     aboutText:string;
+    CallUs:string;
+    Address:string;
+    EmailUs:string;
+    location:string;
 
 }

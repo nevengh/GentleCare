@@ -1,0 +1,27 @@
+
+
+.back-to-top {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 30px;
+    right: 30px;
+    font-family: var(--Monteserat-font);
+    background-color: var(--bs-brown);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.7;
+  }
+  
+  .back-to-top:hover {
+    opacity: 1;
+  }
+  
