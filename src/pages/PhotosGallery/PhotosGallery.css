@@ -109,4 +109,8 @@
     .slider-item{
         display: flex !important;
     }
+    .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
   }

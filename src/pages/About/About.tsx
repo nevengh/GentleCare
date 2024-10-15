@@ -7,7 +7,7 @@ const About = () => {
     const translations = language === "en" ? en : ar;
   return (
     <div className='About'>
-        <h1>{translations.About}</h1>
+        <h1 className='about_head'>{translations.About}</h1>
         <p className="about_text">
             {translations.aboutText}
         </p>

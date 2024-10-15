@@ -24,6 +24,8 @@ const PhotosGallery: React.FC = () => {
     slidesToScroll: 1,
     nextArrow: <NextArrow />, // استدعاء الأسهم المخصصة
     prevArrow: <PrevArrow />,
+    autoplay: true, // تمكين التمرير التلقائي
+  autoplaySpeed: 2000,
   };
 
   return (

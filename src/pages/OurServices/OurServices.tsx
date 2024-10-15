@@ -1,10 +1,16 @@
 import ServicesCard from "../../components/ServicesCard/ServicesCard";
 import "./OurServices.css";
 import tooth from "../../assets/images/white-tooth-healthcare-dental.svg";
+import { useLanguage } from "../../LanguageContext";
+import en from "../../locales/en";
+import ar from "../../locales/ar";
 const OurServices = () => {
+  const { language } = useLanguage();
+  const translations = language === "en" ? en : ar;
+
   return (
     <div className="OurServices">
-        <h1 className="OurServices_Heading">Our Services</h1>
+        <h1 className="OurServices_Heading">{translations.Services}</h1>
       <div className="OurServices_Container">
         <ServicesCard
           title="Hollywood smile "

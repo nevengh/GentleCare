@@ -26,6 +26,13 @@ CallUs:"Call Us",
 Address:"Address",
 EmailUs:"Mail",
 location:"Al Nakheel Tower _ Cornich ST _Al Majaz 1 Sharjah",
+Botox:"Botox",
+Dentaltreatments:"Dental Treatment",
+DigitalSmileDesign:"Digital Smile Design",
+Filler:"Filler",
+GummySmileCorrection:"Gummy Smile Correction",
+Hollywoodsmile:"Hollywood Smile",
+
 
 
 };

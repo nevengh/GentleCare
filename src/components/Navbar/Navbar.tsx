@@ -1,8 +1,5 @@
 import "./Navbar.css";
 import logo from "../../assets/images/logo_1_-removebg-preview.png";
-import instagram from "../../assets/images/icons/instagram.svg";
-import facebook from "../../assets/images/icons/facebook.svg";
-import whatsApp from "../../assets/images/icons/whatsapp.svg";
 import { useEffect, useState } from "react";
 import { useLanguage } from "../../LanguageContext";
 import en from "../../locales/en";
@@ -48,29 +45,30 @@ const Navbar = () => {
 
         <nav className={`nav ${isMenuOpen ? "open" : ""}`}>
           <a href="#hero">{translations.Home}</a>
+          <a href="#about">{translations.About}</a>
           <a href="#OurServices">{translations.Services}</a>
           <a href="#gallery">{translations.Gallery}</a>
           <a href="#contact">{translations.ContactUs} </a>
-          <select className={`languageSelect ${isScrolled ? "scrolled" : ""}`} onChange={handleLanguageChange} value={language}>
-            <option value="en">{translations.English}</option>
-            <option value="ar">{translations.Arabic}</option>
-          </select>
         </nav>
 
         <div className="social-icons">
-          <a href="#">
-            <img src={instagram} alt={translations.instagramicon} />
-          </a>
-          <a href="#">
-            <img src={facebook} alt={translations.facebookicon} />
-          </a>
-          <a href="#">
-            <img src={whatsApp} alt={translations.whatsAppicon} />
-          </a>
+          <select
+            className="languageSelect"
+            onChange={handleLanguageChange}
+            value={language}
+          >
+            <option value="en">{translations.English}</option>
+            <option value="ar">{translations.Arabic}</option>
+          </select>
+          <a href="#contact">Book Now</a>
         </div>
 
         <div className="menu-toggle" onClick={toggleMenu}>
-          {isMenuOpen ? <span className="close_icon">&times;</span> : <span className="burger_icon">&#9776;</span>}
+          {isMenuOpen ? (
+            <span className="close_icon">&times;</span>
+          ) : (
+            <span className="burger_icon">&#9776;</span>
+          )}
         </div>
       </header>
 
@@ -79,17 +77,29 @@ const Navbar = () => {
           <form className="travel-form">
             <div className="form-group">
               <label htmlFor="name">{translations.Name}:</label>
-              <input type="text" placeholder={translations.EnterName} id="name" />
+              <input
+                type="text"
+                placeholder={translations.EnterName}
+                id="name"
+              />
             </div>
 
             <div className="form-group">
               <label htmlFor="email">{translations.Email}:</label>
-              <input type="email" placeholder={translations.enterEmal} id="email" />
+              <input
+                type="email"
+                placeholder={translations.enterEmal}
+                id="email"
+              />
             </div>
 
             <div className="form-group">
               <label htmlFor="phone">{translations.PhoneNumber} :</label>
-              <input type="text" placeholder={translations.enterPhone} id="phone" />
+              <input
+                type="text"
+                placeholder={translations.enterPhone}
+                id="phone"
+              />
             </div>
 
             <div className="form-group">
@@ -108,18 +118,25 @@ const Navbar = () => {
               </select>
             </div>
             <div className="form-group">
-              <label> Preferred Service :</label>
+              <label> {translations.ServicesChoose} :</label>
               <select name="preferredTime" id="preferredTime">
-                <option value="skincare">Skin Care</option>
-                <option value="DentalCare">Dental Care</option>
-                <option value="AdvancedDermatology">
-                  Advanced Dermatology
+                <option value="skincare">
+                  {translations.Dentaltreatments}
                 </option>
+                <option value="DentalCare">
+                  {translations.Hollywoodsmile}
+                </option>
+                <option value="AdvancedDermatology">
+                  {translations.DigitalSmileDesign}
+                </option>
+                <option value="">{translations.Filler}</option>
+                <option value="">{translations.Botox}</option>
+                <option value="GummySmileCorrection">{translations.GummySmileCorrection}</option>
               </select>
             </div>
 
             <button className="start-search-btn" type="submit">
-              Request a Free Consultation
+              {translations.RequestConsultation}
             </button>
           </form>
         </div>

@@ -11,7 +11,7 @@ const ar: Translations = {
  Name:"الاسم",
  Email:"الايميل",
  PhoneNumber:"رقم الهاتف",
- ServicesChoose:"الخدمة",
+ ServicesChoose:"اختر الخدمة",
  PreferredAppointmentTime:"الوقت المناسب للاتصال",
  RequestConsultation:"أطلب استشارة مجانية",
  Gallery:"معرض أعمالنا",

@@ -26,3 +26,10 @@
     text-size-adjust: 12px;
     text-shadow: 0 4px 8px rgba(71, 35, 14, 0.3); /* إضافة الظل هنا */
 }
+
+@media(max-width:520px){
+    .OurServices_Heading,.About h1,.contact_title{
+        font-size: 45px;
+        font-weight: 600;
+    }
+}

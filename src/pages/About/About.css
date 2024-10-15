@@ -11,3 +11,9 @@
     font-weight: 500;
     color: var(--bs-gray);
 }
+
+@media(max-width:520px){
+    .About .about_text{
+        width: 100% !important;
+    }
+}

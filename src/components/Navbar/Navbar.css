@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(../../assets/images/shedrack-salami-f6a2ZaBytUM-unsplash.jpg);
+    background-image: url(../../assets/images/dental-tools.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
     height: 100px;
     width: 100%;
     position: fixed;
-    background-color: var(--bs-beig);
+    /* background-color: var(--bs--offwhite); */
     box-shadow: 0 2px 8px #0000006f;
     border-bottom: 2px solid rgba(255, 255, 255, 0.2392156863);
     z-index: 999;
@@ -56,13 +56,24 @@
     text-decoration-thickness: 2px;
   }
   
-  /* Social icons styles */
-  .social-icons a img {
-    color: #fff;
-    margin-left: 20px;
-    width: 32px;
+  .social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
-  
+  .social-icons a{
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: var(--bs-brown);
+    border: none;
+    color: var(--bs--offwhite);
+    font-size: 20px;
+    font-family: var(--Monteserat-font);
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+  }
   /* Hero content styles */
   .hero-content {
     width: 90%;
@@ -109,10 +120,10 @@
     padding: 5px 20px;
     background-color: transparent;
     border: none;
-    color: var(--bs--offwhite);
+    color: var(--bs-brown);
     font-size: 20px;
     font-family: var(--Monteserat-font);
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
   }
   
@@ -154,7 +165,7 @@
   
   .start-search-btn {
     width: 100%;
-    background-color: var(--bs-beig);
+    background-color: var(--bs-brown);
     padding: 15px;
     border: none;
     border-radius: 5px;
@@ -162,12 +173,13 @@
     font-size: 1.2rem;
     cursor: pointer;
     margin-top: 20px;
-    transition: all 0.3s ease;
+    transition: 0.5s all;
   }
   
   .start-search-btn:hover {
-    background-color: #b8a83e;
+    background: var(--bs--offwhite);
     transform: scale(0.96);
+    color: var(--bs-brown);
   }
   .menu-toggle{
     display: none;
@@ -226,6 +238,9 @@
     .nav a {
       margin: 10px 0;
       font-size: 24px;
+    }
+    .hero-content {
+      flex-direction: column-reverse;
     }
   }
   

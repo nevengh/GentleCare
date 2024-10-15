@@ -13,7 +13,6 @@ export interface Translations{
     Name:string;
     Email:string;
     PhoneNumber:string;
-    ServicesChoose:string;
     PreferredAppointmentTime:string;
     RequestConsultation:string;
     Gallery:string;
@@ -28,5 +27,12 @@ export interface Translations{
     Address:string;
     EmailUs:string;
     location:string;
-
+    ServicesChoose:string;
+    Hollywoodsmile :string;
+    Botox:string;
+    Filler:string;
+    DigitalSmileDesign:string;
+    GummySmileCorrection:string;
+    Dentaltreatments:string;
+    
 }
