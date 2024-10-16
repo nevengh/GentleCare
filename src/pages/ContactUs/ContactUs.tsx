@@ -11,8 +11,7 @@ const ContactUs = () => {
          <div className="hero-content">
          <div className="left-section">
           <h1>
-          Get <span className='sales'>20%</span> Off Your First Dental or Skin Treatment – <span className='sales'>Limited</span> Time
-          Only!
+          Cleaning and zoom whitening <span className='sales'>AED 500 </span>till December 1st
           </h1>
         </div>
         <div className="right-section">

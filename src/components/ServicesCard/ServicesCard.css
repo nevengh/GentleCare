@@ -1,6 +1,6 @@
 .title_con {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   border-radius: 4px;
@@ -10,18 +10,13 @@
   transition: background-color 0.3s ease; /* Smooth transition for hover */
   width: 116%;
 }
-/* .title_con:hover {
-  width: 120%;
-  background: linear-gradient(270deg, #ccbe5f, #f0e68c);
-  cursor: pointer;
-  animation: hoverEffect 2s ease infinite; 
-} */
 .ServiceCard_title{
   font-size: 25px;
   font-family: var(--MyriadPRo-font);
-  color: var(--bs-beig);
+  color: var(--bs--offwhite);
 }
 .title_con img {
+  
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -30,7 +25,7 @@
   justify-content: center;
   align-items: center;
   object-fit: cover;
-  background-color: var(--bs-beig);
+  background-color: var(--bs--offwhite);
 }
 .ServicesCard {
   width: 361px;

@@ -1,5 +1,5 @@
 import "./Footer.css";
-import logo from "../../assets/images/logo_1_-removebg-preview.png";
+import logo from "../../assets/images/Artboard 1.png";
 import { useLanguage } from "../../LanguageContext";
 import en from "../../locales/en";
 import ar from "../../locales/ar";
@@ -31,8 +31,11 @@ const Footer = () => {
 
             <div className="phone_number">
               <h3>{translations.CallUs}</h3>
-              <a href="+971 54355 2222">
-                <p>+971 54355 2222</p>
+              <a href="05 06312787">
+                <p>05 06312787</p>
+              </a>
+              <a href="065758757">
+                <p>065758757</p>
               </a>
             </div>
           </div>
@@ -60,7 +63,7 @@ const Footer = () => {
 
             <div className="phone_number">
               <h3>{translations.Address}</h3>
-              <p>Al Nakheel Tower _ Cornich ST _Al Majaz 1 Sharjah</p>
+              <p>{translations.location}</p>
             </div>
           </div>
           <div className="socil_text_con">
@@ -81,7 +84,7 @@ const Footer = () => {
 
             <div className="phone_number">
               <h3>{translations.EmailUs}</h3>
-              <p>info@goldenclick.ae</p>
+              <p>care.mc@gmail.com</p>
             </div>
           </div>
         </div>
