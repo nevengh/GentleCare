@@ -9,6 +9,8 @@
     color: var(--bs-brown);
     font-family: var(--Monteserat-font);
     margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 700;
 }
 .contact_title,.About h1{
     text-align: center;

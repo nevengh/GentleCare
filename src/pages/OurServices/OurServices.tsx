@@ -18,45 +18,45 @@ const OurServices = () => {
 
   const services = [
     {
-      title: "Hollywood smile",
-      description: "The safe and effective teeth whitening procedures include using whitening products approved by the health authority and strictly following their guidelines.",
-      img_alt: "Hollywood smile",
+      title:translations.Hollywoodsmile,
+      description: translations.hollywoodDesc,
+      img_alt: translations.Hollywoodsmile,
       img_url: tooth
     },
     {
-      title: "Digital Smile Design",
-      description: "Our advanced digital smile design technology lets you virtually preview different cosmetic and restorative dental treatments, such as veneers or crowns, tailored to your unique needs",
-      img_alt: "Digital Smile Design",
+      title: translations.DigitalSmileDesign,
+      description: translations.DigitalDesc,
+      img_alt: translations.DigitalSmileDesign,
       img_url: digital
     },
     {
-      title: "Botox",
-      description: "Dermal fillers work by adding volume to the skin and smoothing out wrinkles and fine lines.",
-      img_alt: "Botox",
+      title: translations.Botox,
+      description: translations.botoxDesc,
+      img_alt: translations.Botox,
       img_url: botox
     },
     {
-      title: "Filler",
-      description: "Lip injections can help add volume and provide precise or dramatic correction.",
-      img_alt: "Filler",
+      title: translations.Filler,
+      description: translations.fillerDesc,
+      img_alt: translations.Filler,
       img_url: botox
     },
     {
-      title: "Gummy Smile Correction",
-      description: "Using advanced, minimally invasive methods like laser therapy, we can precisely sculpt and adjust the gum tissue, creating a more balanced and aesthetically pleasing frame around your teeth.",
-      img_alt: "Gummy Smile Correction",
+      title: translations.GummySmileCorrection,
+      description: translations.gummyDesc,
+      img_alt: translations.GummySmileCorrection,
       img_url: gummy
     },
     {
-      title: "Laser Hair Removal",
-      description: "At our center, we offer state-of-the-art laser hair removal that can be used on its own or combined with other skin treatments to help you achieve flawless, radiant skin.",
-      img_alt: "Laser Hair Removal",
+      title: translations.Laser,
+      description: translations.LaserDesc,
+      img_alt: translations.Laser,
       img_url: laser
     },
     {
-      title: "Veneers",
-      description: "Widely regarded as one of the most sophisticated and visually stunning cosmetic dentistry options, veneers offer a transformative solution.",
-      img_alt: "Veneers",
+      title: translations.Veneer,
+      description: translations.VeneerDesc,
+      img_alt:translations.Veneer,
       img_url: veneer
     }
   ];

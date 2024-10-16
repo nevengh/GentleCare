@@ -56,4 +56,11 @@
         font-size: 45px;
         font-weight: 600;
     }
+    .carousel-control-prev {
+        left: -20px; /* تعديل المسافة على اليسار لجعل الزر يبتعد عن السلايد */
+    }
+    
+    .carousel-control-next {
+        right: -20px; /* تعديل المسافة على اليمين لجعل الزر يبتعد عن السلايد */
+    }
 }

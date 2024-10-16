@@ -34,5 +34,15 @@ export interface Translations{
     DigitalSmileDesign:string;
     GummySmileCorrection:string;
     Dentaltreatments:string;
-    
+    evaluation:string;
+    hollywoodDesc:string;
+    DigitalDesc:string;
+    botoxDesc:string;
+    gummyDesc:string;
+    fillerDesc:string;
+    Laser:string;
+    LaserDesc:string;
+    Veneer:string;
+    VeneerDesc:string;
+
 }

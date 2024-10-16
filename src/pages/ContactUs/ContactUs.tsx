@@ -17,7 +17,7 @@ const ContactUs = () => {
         <div className="right-section">
             
           <form className="travel-form">
-          <h2 className='book_title'>Book a Free Smile Evaluation</h2>
+          <h2 className='book_title'>{translations.evaluation}</h2>
             <div className="form-group">
               <label htmlFor="name">{translations.Name}:</label>
               <input type="text" placeholder={translations.EnterName} id="name" />
@@ -46,6 +46,8 @@ const ContactUs = () => {
                 <option value="3PM">3:00 PM</option>
                 <option value="4PM">4:00 PM</option>
                 <option value="5PM">5:00 PM</option>
+                <option value="5PM">6:00 PM</option>
+                <option value="5PM">7:00 PM</option>
               </select>
             </div>
             <div className="form-group">
@@ -60,7 +62,7 @@ const ContactUs = () => {
             </div>
 
             <button className="start-search-btn" type="submit">
-              Request a Free Consultation
+              {translations.RequestConsultation}
             </button>
           </form>
         </div>

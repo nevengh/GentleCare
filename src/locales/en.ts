@@ -32,6 +32,16 @@ DigitalSmileDesign:"Digital Smile Design",
 Filler:"Filler",
 GummySmileCorrection:"Gummy Smile Correction",
 Hollywoodsmile:"Hollywood Smile",
+evaluation:"Book a Free Smile Evaluation",
+hollywoodDesc:"The safe and effective teeth whitening procedures include using whitening products approved by the health authority and strictly following their guidelines.",
+DigitalDesc:"Our advanced digital smile design technology lets you virtually preview different cosmetic and restorative dental treatments, such as veneers or crowns, tailored to your unique needs",
+botoxDesc:"Dermal fillers work by adding volume to the skin and smoothing out wrinkles and fine lines.",
+gummyDesc:"Using advanced, minimally invasive methods like laser therapy, we can precisely sculpt and adjust the gum tissue, creating a more balanced and aesthetically pleasing frame around your teeth.",
+fillerDesc:"Lip injections can help add volume and provide precise or dramatic correction.",
+Laser:"Laser Hair Removal",
+LaserDesc:"At our center, we offer state-of-the-art laser hair removal that can be used on its own or combined with other skin treatments to help you achieve flawless, radiant skin.",
+Veneer:"Veneer",
+VeneerDesc:"Widely regarded as one of the most sophisticated and visually stunning cosmetic dentistry options, veneers offer a transformative solution.",
 
 
 

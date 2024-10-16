@@ -96,7 +96,8 @@
     color: var(--bs--offwhite);
     font-family: var(--Monteserat-font);
     padding: 10px;
-    background-color:#00000077 ;
+    font-weight: 600;
+    background-color:#00000098 ;
     box-shadow: 0 2px 8px #000000b4;
   }
   
@@ -129,7 +130,7 @@
   }
   
   .languageSelect option {
-    background-color: var(--bs-beig);
+    background-color: var(--bs-brown);
     color: var(--bs--offwhite);
     cursor: pointer;
   }
@@ -221,7 +222,7 @@
     padding: 0.5rem 1.5rem;
   }
     .nav {
-      display: none;
+      display: none !important;
       flex-direction: column;
       position: absolute;
       top: 100px;
@@ -233,7 +234,7 @@
     }
   
     .nav.open {
-      display: flex;
+      display: flex !important;
     }
   
     .nav a {
