@@ -226,7 +226,7 @@
       top: 100px;
       left: 0;
       right: 0;
-      background-color: var(--bs-beig);
+      background-color: var(--bs--offwhite);
       padding: 20px;
       z-index: 999;
     }
@@ -249,4 +249,5 @@
     .hero-content{
       padding: 0 10px;
     }
+    
   }
