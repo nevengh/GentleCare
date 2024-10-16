@@ -26,6 +26,12 @@ CallUs:"اتصل بنا",
 Address:"العنوان",
 EmailUs:"الإيميل",
 location:"برج النخيل _ شارع الكورنيش المجاز 1 الشارقة",
+Botox:"",
+Dentaltreatments:"",
+DigitalSmileDesign:"",
+Filler:"",
+GummySmileCorrection:"",
+Hollywoodsmile:"",
 
 
     
