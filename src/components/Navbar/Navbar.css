@@ -93,10 +93,11 @@
   .left-section h1,
   .left-section h4 {
     text-align: center;
-    color: var(--bs-gray);
+    color: var(--bs--offwhite);
     font-family: var(--Monteserat-font);
     padding: 10px;
-    box-shadow: 0 2px 8px #0000006f;
+    background-color:#00000077 ;
+    box-shadow: 0 2px 8px #000000b4;
   }
   
   .left-section h4 {

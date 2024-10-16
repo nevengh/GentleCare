@@ -26,6 +26,30 @@
     text-size-adjust: 12px;
     text-shadow: 0 4px 8px rgba(71, 35, 14, 0.3); /* إضافة الظل هنا */
 }
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #47230E; /* Custom background color */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: 1;
+    top: 50%; /* Vertically center the button */
+    transform: translateY(-50%); /* Adjust position to center */
+    
+}
+
+.carousel-control-prev {
+    left: -50px; /* تعديل المسافة على اليسار لجعل الزر يبتعد عن السلايد */
+}
+
+.carousel-control-next {
+    right: -50px; /* تعديل المسافة على اليمين لجعل الزر يبتعد عن السلايد */
+}
+.OurServices .carousel{
+    height: 400px;
+    /* background-color: red; */
+
+}
 
 @media(max-width:520px){
     .OurServices_Heading,.About h1,.contact_title{
