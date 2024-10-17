@@ -42,6 +42,7 @@ Laser:"Laser Hair Removal",
 LaserDesc:"At our center, we offer state-of-the-art laser hair removal that can be used on its own or combined with other skin treatments to help you achieve flawless, radiant skin.",
 Veneer:"Veneer",
 VeneerDesc:"Widely regarded as one of the most sophisticated and visually stunning cosmetic dentistry options, veneers offer a transformative solution.",
+bookNow:"Book Now",
 
 
 

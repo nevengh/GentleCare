@@ -60,7 +60,7 @@ const Navbar = () => {
             <option value="en">{translations.English}</option>
             <option value="ar">{translations.Arabic}</option>
           </select>
-          <a href="#contact">Book Now</a>
+          <a href="#contact" className="bookNow">{translations.bookNow}</a>
         </div>
 
         <div className="menu-toggle" onClick={toggleMenu}>

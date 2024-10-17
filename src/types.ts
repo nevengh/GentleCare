@@ -44,5 +44,6 @@ export interface Translations{
     LaserDesc:string;
     Veneer:string;
     VeneerDesc:string;
+bookNow:string;
 
 }
