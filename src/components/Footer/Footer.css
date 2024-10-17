@@ -18,6 +18,7 @@
     width: 200px;
   }
 .phone_number h3{
+    margin: 0 !important;
     color: var(--bs--offwhite);
     font-family: var(--MyriadPRo-font);
     font-weight: 600;
@@ -42,18 +43,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
     flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
 }
 .phone_number{
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 .phone_number a,.phone_number p{
     color: var(--bs-beig);
     text-decoration: none;
-    max-width: 300px;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+    margin: 0 !important;
+    word-break: break-all;
 }
 
 .social_menu{
@@ -78,7 +83,7 @@
 }
 
 
-@media(max-width:976px){
+@media(max-width:920px){
     .Footer{
         gap: 36px;
     }

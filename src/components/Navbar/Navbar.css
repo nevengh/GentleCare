@@ -21,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    height: 100px;
+    height: 80px;
     width: 100%;
     position: fixed;
     /* background-color: var(--bs--offwhite); */
@@ -77,8 +77,8 @@
   }
   /* Hero content styles */
   .hero-content {
-    width: 90%;
-    margin: 100px auto;
+    width: 100%;
+    margin: 90px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -116,7 +116,7 @@
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 10px;
-    margin-top: 40px;
+    /* margin-top: 10px; */
   }
   
   /* Language select styles */
@@ -142,7 +142,7 @@
   
   /* Form styles */
   .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
   }
   
   .form-group label {
@@ -189,10 +189,19 @@
     display: none;
   }
 
-  
+  @media(max-width:1200px){
+    .bookNow{
+      display: none;
+  }
+  }
   @media(max-width:968px){
     .header {
         padding: 20px 20px;
+    }
+    .hero-content {
+      width: 80%;
+
+      
     }
   }
   /* Responsive styles for mobile */
@@ -200,9 +209,7 @@
     .hero {
       height: auto;
     }
-    .bookNow{
-        display: none;
-    }
+    
   
     .hero-content {
       flex-direction: column;
@@ -252,6 +259,11 @@
   @media(max-width:520px){
     .hero-content{
       padding: 0 10px;
+    }
+    .hero-content {
+      width: 90%;
+
+      
     }
     
   }
