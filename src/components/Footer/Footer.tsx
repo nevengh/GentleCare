@@ -140,7 +140,7 @@ const Footer = () => {
             </svg>
           </a>
           {/* WhatsApp */}
-          <a href="https://wa.me/971543552222">
+          {/* <a href="">
             <svg
               width="38"
               height="38"
@@ -153,7 +153,7 @@ const Footer = () => {
                 fill="#ffffff"
               />
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
