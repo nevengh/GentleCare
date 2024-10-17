@@ -3,6 +3,7 @@
     position: relative;
     background-color: #00d2d3;
     height: 100vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -83,6 +84,7 @@
     align-items: center;
     padding: 0 50px;
     flex-wrap: wrap;
+    
   }
   
   .left-section {

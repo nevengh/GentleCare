@@ -142,12 +142,10 @@ const Navbar = () => {
         </div>
         <div className="left-section">
           <h1>
-            World-Class Dental & Skin Care in Sharjah – Book a Free Consultation
-            with UAE’s Top Experts!
+            {translations.heroHead}
           </h1>
           <h4>
-            Providing You with the Latest Technologies and Renowned Specialists
-            in Dentistry and Dermatology.
+            {translations.heroSubhead}
           </h4>
         </div>
       </div>

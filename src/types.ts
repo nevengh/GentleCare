@@ -45,5 +45,11 @@ export interface Translations{
     Veneer:string;
     VeneerDesc:string;
 bookNow:string;
+beforeAfter:string;
+heroHead:string;
+heroSubhead:string;
+sales:string;
+slaes1:string;
+sales2:string;
 
 }

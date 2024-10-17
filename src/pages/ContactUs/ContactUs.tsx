@@ -11,7 +11,7 @@ const ContactUs = () => {
          <div className="hero-content">
          <div className="left-section">
           <h1>
-          Cleaning and zoom whitening <span className='sales'>AED 500 </span>till December 1st
+          {translations.slaes1}<span className='sales'>{translations.sales} </span>{translations.sales2}
           </h1>
         </div>
         <div className="right-section">
@@ -51,13 +51,20 @@ const ContactUs = () => {
               </select>
             </div>
             <div className="form-group">
-              <label> Preferred Service :</label>
+              <label> {translations.ServicesChoose} :</label>
               <select name="preferredTime" id="preferredTime">
-                <option value="skincare">Skin Care</option>
-                <option value="DentalCare">Dental Care</option>
-                <option value="AdvancedDermatology">
-                  Advanced Dermatology
+                <option value="skincare">
+                  {translations.Dentaltreatments}
                 </option>
+                <option value="DentalCare">
+                  {translations.Hollywoodsmile}
+                </option>
+                <option value="AdvancedDermatology">
+                  {translations.DigitalSmileDesign}
+                </option>
+                <option value="">{translations.Filler}</option>
+                <option value="">{translations.Botox}</option>
+                <option value="GummySmileCorrection">{translations.GummySmileCorrection}</option>
               </select>
             </div>
 

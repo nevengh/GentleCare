@@ -12,7 +12,8 @@
     bottom: 30px;
     right: 30px;
     font-family: var(--Monteserat-font);
-    background-color: var(--bs-brown);
+    background-color: var(--bs-gray);
+    border: 1px solid var(--bs--offwhite);
     color: white;
     padding: 10px 15px;
     border-radius: 50px;

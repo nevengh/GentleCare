@@ -30,3 +30,9 @@
 .ContactUs .left-section h1{
     line-height: 50px;
 }
+
+@media(max-width:767px){
+    .ContactUs .hero-content{
+        margin-top: 15px !important;
+    }
+}

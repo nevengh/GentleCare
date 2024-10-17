@@ -3,19 +3,33 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./PhotosGallery.css";
-import beforeImage from "../../assets/images/befor.jpeg";
-import afterImage from "../../assets/images/afte.jpeg";
-import afterImage1 from "../../assets/images/b8a573b3-c588-4b06-9bf8-304cc45de147.jpeg";
-import beforeImage1 from "../../assets/images/f50d8848-8106-4e95-be91-f1b21d20d2f6.jpeg";
-
+import beforeImage from "../../assets/images/New folder/شفاف1.jpeg";
+import afterImage from "../../assets/images/New folder/شفاف2.jpeg";
+import afterImage1 from "../../assets/images/New folder/ابتسامة1.jpeg";
+import beforeImage1 from "../../assets/images/New folder/ابتسامة2.jpeg";
+import beforeImage2 from "../../assets/images/New folder/تثويم1.jpeg";
+import afterImage2 from "../../assets/images/New folder/تقويم2.jpeg";
+import beforeImage3 from '../../assets/images/New folder/فقد1.jpeg'
+import afterImage3 from '../../assets/images/New folder/فقد2.jpeg'
+import beforeImage4 from '../../assets/images/New folder/لثة_قبل.jpeg'
+import afterImage4 from '../../assets/images/New folder/لثة_بعد.jpeg'
+import beforeImage5 from '../../assets/images/New folder/فينير1.jpeg'
+import afterImage5 from '../../assets/images/New folder/فينير2.jpeg';
+import beforeImage6 from '../../assets/images/New folder/تبييض1.jpeg'
+import afterImage6 from '../../assets/images/New folder/تبييض2.jpeg';
 // Define the types for the arrow props
 interface ArrowProps {
   className?: string;
   style?: React.CSSProperties;
   onClick?: React.MouseEventHandler<HTMLDivElement>;
 }
+import { useLanguage } from '../../LanguageContext'
+import en from '../../locales/en'
+import ar from '../../locales/ar'
 
 const PhotosGallery: React.FC = () => {
+  const { language } = useLanguage()
+  const translations = language === 'en' ? en : ar
   const settings = {
     dots: true,
     infinite: true,
@@ -30,7 +44,7 @@ const PhotosGallery: React.FC = () => {
 
   return (
     <div className="photos-gallery">
-      <h1 className="gallery_head">Before & After Comparison</h1>
+      <h1 className="gallery_head">{translations.beforeAfter}</h1>
       <Slider {...settings}>
         {/* السلايد الأول */}
         <div className="slider-item">
@@ -48,6 +62,46 @@ const PhotosGallery: React.FC = () => {
           </div>
           <div className="after-image">
             <img src={afterImage1} alt="After" />
+          </div>
+        </div>
+        <div className="slider-item">
+          <div className="before-image">
+            <img src={beforeImage2} alt="Before" />
+          </div>
+          <div className="after-image">
+            <img src={afterImage2} alt="After" />
+          </div>
+        </div>
+        <div className="slider-item">
+          <div className="before-image">
+            <img src={beforeImage3} alt="Before" />
+          </div>
+          <div className="after-image">
+            <img src={afterImage3} alt="After" />
+          </div>
+        </div>
+        <div className="slider-item">
+          <div className="before-image">
+            <img src={beforeImage4} alt="Before" />
+          </div>
+          <div className="after-image">
+            <img src={afterImage4} alt="After" />
+          </div>
+        </div>
+        <div className="slider-item">
+          <div className="before-image">
+            <img src={beforeImage5} alt="Before" />
+          </div>
+          <div className="after-image">
+            <img src={afterImage5} alt="After" />
+          </div>
+        </div>
+        <div className="slider-item">
+          <div className="before-image">
+            <img src={beforeImage6} alt="Before" />
+          </div>
+          <div className="after-image">
+            <img src={afterImage6} alt="After" />
           </div>
         </div>
       </Slider>

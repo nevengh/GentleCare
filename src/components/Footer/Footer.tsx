@@ -63,7 +63,7 @@ const Footer = () => {
 
             <div className="phone_number">
               <h3>{translations.Address}</h3>
-              <p>{translations.location}</p>
+              <p className="location_text">{translations.location}</p>
             </div>
           </div>
           <div className="socil_text_con">
@@ -84,13 +84,13 @@ const Footer = () => {
 
             <div className="phone_number">
               <h3>{translations.EmailUs}</h3>
-              <p>care.mc@gmail.com</p>
+              <p>gentlecare.mc@gmail.com</p>
             </div>
           </div>
         </div>
         <div className="social_menu">
           {/* instagram */}
-          <a href="">
+          <a href="https://www.instagram.com/gentle_caremc?igsh=bWU5bTAzaHd2OHYw">
             <svg
               width="37"
               height="38"
@@ -125,7 +125,7 @@ const Footer = () => {
             </svg>
           </a>
           {/* Facebook */}
-          <a href="">
+          <a href="https://www.facebook.com/profile.php?id=61564899843542&mibextid=ZbWKwL">
             <svg
               width="38"
               height="38"
@@ -139,35 +139,8 @@ const Footer = () => {
               />
             </svg>
           </a>
-          {/* Tiktok */}
-          <a href="">
-            <svg
-              width="38"
-              height="38"
-              viewBox="0 0 38 38"
-              fill="#ffffff"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g clip-path="url(#clip0_142_3646)">
-                <path
-                  d="M26.4366 0.619141H20.2411V25.6598C20.2411 28.6435 17.8583 31.0942 14.8929 31.0942C11.9276 31.0942 9.54473 28.6435 9.54473 25.6598C9.54473 22.7296 11.8746 20.332 14.7341 20.2255V13.9387C8.43272 14.0452 3.34929 19.2132 3.34929 25.6598C3.34929 32.1598 8.53862 37.381 14.9459 37.381C21.3531 37.381 26.5424 32.1065 26.5424 25.6598V12.8198C28.8724 14.5247 31.7318 15.537 34.7501 15.5903V9.30348C30.0903 9.14364 26.4366 5.30761 26.4366 0.619141Z"
-                  fill="#ffffff"
-                />
-              </g>
-              <defs>
-                <clipPath id="clip0_142_3646">
-                  <rect
-                    width="36.7619"
-                    height="36.7619"
-                    fill="#ffffff"
-                    transform="translate(0.285797 0.619141)"
-                  />
-                </clipPath>
-              </defs>
-            </svg>
-          </a>
           {/* WhatsApp */}
-          <a href="">
+          {/* <a href="">
             <svg
               width="38"
               height="38"
@@ -180,7 +153,7 @@ const Footer = () => {
                 fill="#ffffff"
               />
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
