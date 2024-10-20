@@ -68,6 +68,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 30px;
+
 }
 .social_menu a{
     transition: transform .3s ;
@@ -77,6 +78,10 @@
 }
 .social_menu a:hover{
     transform: scale(.92);
+}
+.socil_text_con{
+    height: 100px;
+
 }
 .socil_text_con  path{
     fill: var(--bs--offwhite) !important;
