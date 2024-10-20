@@ -144,7 +144,7 @@ const Navbar = () => {
           <h1>
             {translations.heroHead}
           </h1>
-          <h4>
+          <h4 className="heroSubhead">
             {translations.heroSubhead}
           </h4>
         </div>

@@ -203,12 +203,16 @@
 
       
     }
+    .heroSubhead{
+      display: none;
+    }
   }
   /* Responsive styles for mobile */
   @media (max-width: 920px) {
     .hero {
       height: auto;
     }
+    
     
   
     .hero-content {
@@ -234,7 +238,7 @@
       display: none !important;
       flex-direction: column;
       position: absolute;
-      top: 100px;
+      top: 80px;
       left: 0;
       right: 0;
       background-color: var(--bs--offwhite);

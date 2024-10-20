@@ -44,6 +44,7 @@
 #OurServices,
 #gallery,
 #contact,
-#about {
+#about,
+#ourCenter {
   scroll-margin-top: 100px; /* Adjust this value based on your header height */
 }

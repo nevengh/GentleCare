@@ -51,5 +51,7 @@ heroSubhead:string;
 sales:string;
 slaes1:string;
 sales2:string;
-
+OurStaff:string;
+abdullah:string;
+zina:string;
 }

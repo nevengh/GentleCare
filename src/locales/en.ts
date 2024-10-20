@@ -59,6 +59,9 @@ const en: Translations = {
     sales:"500 AED",
     slaes1:"Cleaning and zoom whitening ",
     sales2:"till December 1st",
+    OurStaff:"Our Staff",
+    abdullah:"DR.Abdullah Alwaisi",
+    zina:"DR.Zina Shoaib",
     
 };
 

@@ -59,7 +59,9 @@ const ar: Translations = {
     sales:"500 درهم",
     slaes1:"تنظيف وتبييض الأسنان بالزوم",
     sales2:"حتى 1 ديسمبر",
-    
+    OurStaff:"فريقنا",
+    zina:"د.زينة شعيب",
+    abdullah:"د.عبدالله الويسي",
 };
 
 export default ar;

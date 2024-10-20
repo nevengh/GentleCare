@@ -14,7 +14,7 @@
     flex-wrap: wrap;
     /* border: 1px solid red; */
 }
-.OurServices_Heading, .gallery_head {
+.OurServices_Heading, .gallery_head,.ourCenter_heading {
     text-align: center;
     color: #47230E;
     font-family: var(--Monteserat-font);
