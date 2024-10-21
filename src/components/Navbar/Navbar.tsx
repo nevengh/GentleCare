@@ -30,10 +30,15 @@ const Navbar = () => {
 
   const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setLanguage(e.target.value as "en" | "ar");
+    setIsMenuOpen(false);
   };
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+   // Close the menu when a link is clicked
+   const closeMenu = () => {
+    setIsMenuOpen(false);
   };
 
   return (
@@ -44,11 +49,11 @@ const Navbar = () => {
         </div>
 
         <nav className={`nav ${isMenuOpen ? "open" : ""}`}>
-          <a href="#hero">{translations.Home}</a>
-          <a href="#about">{translations.About}</a>
-          <a href="#OurServices">{translations.Services}</a>
-          <a href="#gallery">{translations.Gallery}</a>
-          <a href="#contact">{translations.ContactUs} </a>
+          <a href="#hero" onClick={closeMenu}>{translations.Home}</a>
+          <a href="#about"onClick={closeMenu}>{translations.About}</a>
+          <a href="#OurServices"onClick={closeMenu}>{translations.Services}</a>
+          <a href="#gallery"onClick={closeMenu}>{translations.Gallery}</a>
+          <a href="#contact"onClick={closeMenu}>{translations.ContactUs} </a>
         </nav>
 
         <div className="social-icons">
