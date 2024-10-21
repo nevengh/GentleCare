@@ -11,14 +11,15 @@ const OurCenter = () => {
     <div className='ourCenter'>
         <h1 className='ourCenter_heading'>{translations.OurStaff}</h1>
         <div className="Doctor_image_con">
-            <div className="img_Card">
-                <img src={abdullah} alt={translations.abdullah} />
-                <h1 className='servie_name_card'> {translations.abdullah} </h1>
-                <div className="overlay_card_service"></div>
-            </div>
+            
             <div className="img_Card">
                 <img src={zina} alt={translations.zina} />
                 <h1 className='servie_name_card'> {translations.zina} </h1>
+                <div className="overlay_card_service"></div>
+            </div>
+            <div className="img_Card">
+                <img src={abdullah} alt={translations.abdullah} />
+                <h1 className='servie_name_card'> {translations.abdullah} </h1>
                 <div className="overlay_card_service"></div>
             </div>
         </div>
