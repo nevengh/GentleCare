@@ -58,11 +58,27 @@ const en: Translations = {
     "Providing You with the Latest Technologies and Renowned Specialists in Dentistry and Dermatology",
     sales:"500 AED",
     slaes1:"Cleaning and zoom whitening ",
-    sales2:"till December 1st",
+    sales2:"  till December 1st",
     OurStaff:"Our Staff",
     abdullah:"DR.Abdullah Alwaisi",
     zina:"DR.Zina Shoaib",
-    
+    AboutTitle:"Gentle Care|About US",
+    AboutDesc:" Gentle Care Center is one of the most important researchers in Sharjah interested in humanitarian aid, as it provides comprehensive dental treatment services including braces, clear braces, fillers and Botox. It also provides dental implants and gummy smile correction using the latest features and the center with all effective means, and contributes to improving skills, which includes providing distinguished and professional care to patients.",
+    AboutKeys:" medical center,partner,Dental Clinic,Teeth braces,Botox,Filler,Gummy Smile,Laser,Hair Removal,Veneer,Hollywood Smile,invisible braces,Community medical center,doctors clinic,clinic center,care clinic,doctors,free health cheack up near me,near dental clinic,best dental clinic in sharjah",
+    ContactUsKeys:"Dentist Offers,Location,contact us,appointment,medical center,Dental Center,Sharjah,best dental clinic in sharjah,dental office near me,24 hour dentist near me,smile dental",
+    ContactUsTitle:"Gentle Care|Contact Us",
+    ContactUsDesc:"Get in touch with Gentle Care to book your consultation or inquire about our services.",
+    OurCenterTitle: "Gentle Care|Our Staff",
+    OurCenterKeys: "staff, medical center, healthcare professionals, doctors, dentists",
+    OurCenterDesc: "Meet our qualified and experienced staff at our medical center. Learn more about our team of healthcare professionals.",
+  OurServicesTitle:"Gentle Care|Our Services",
+  OurServicesKeys: "botox, dental care, filler, laser, hollywood smile, gummy smile correction, veneer,Teeth braces,Hair Removal,invisible braces",
+  OurServicesDesc: "Discover our wide range of services, from Botox and Filler to Dental Care, Hollywood Smile, and Laser treatments. Learn more about what we offer.",
+  HeroTitle:"Gentle Care",
+  GalleryTitle:"Gentle Care|Gallery",
+  GalleryKeys:"Gallery,Teeth Photo,Smile,Dentist Gallery,before and after photo",
+  GalleryDesc:"Explore our photo gallery and view the best arrangements we offer at Gentle Care. See a range of before and after cases.",
+  
 };
 
 export default en;

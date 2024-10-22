@@ -11,6 +11,7 @@ import veneer from '../../assets/images/serviceIcon/dental-veneer_8808320.svg'
 import { useLanguage } from "../../LanguageContext";
 import en from "../../locales/en";
 import ar from "../../locales/ar";
+// import SeoComponnent from '../../components/SeoComponnent/SeoComponnent';
 
 const OurServices = () => {
   const { language } = useLanguage();
@@ -63,6 +64,7 @@ const OurServices = () => {
 
   return (
     <div className="OurServices">
+      
       <h1 className="OurServices_Heading">{translations.Services}</h1>
       <div className="OurServices_Container">
         <Carousel>

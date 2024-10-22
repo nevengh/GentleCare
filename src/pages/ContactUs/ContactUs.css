@@ -4,6 +4,7 @@
     padding: 1rem;
     margin-top: 100px;
 }
+.ContactUs .hero-content{}
 .book_title{
     text-align: center;
     color: var(--bs-brown);
@@ -25,14 +26,58 @@
     text-shadow: 0 4px 8px rgba(71, 35, 14, 0.3); /* إضافة الظل هنا */
 }
 .sales{
-    color: red;
+    font-weight: 600;
+    font-size: 1.2em; 
+    color: #47230E;
 }
 .ContactUs .left-section h1{
-    line-height: 50px;
+    line-height: 80px;
+    font-family: var(--roboto);
+    
+    color: var(--bs--offwhite);
+
 }
+
+.left-section {
+    background-color: #f7f7f7; /* Light background to make the text pop */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center; /* Center align the text */
+}
+
+.highlight-title {
+    font-family: 'Roboto', sans-serif; /* Apply a modern font */
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    color: #333; /* Darker text for better readability */
+}
+
+.sales-highlight {
+    color: #008080; /* Teal color suitable for dental clinics */
+    font-weight: bold; /* Bold font to highlight */
+    background-color: #e0f7f7; /* Light teal background for further emphasis */
+    padding: 0 10px; /* Add padding around the word */
+    border-radius: 5px; /* Rounded background */
+    box-shadow: 0 2px 5px rgba(0, 128, 128, 0.3); /* Slight shadow to make it pop */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.sales-highlight:hover {
+    cursor: pointer;
+    color: #fff; /* Change text color on hover */
+    background-color: #008080; /* Darker teal on hover */
+    box-shadow: 0 4px 10px rgba(0, 128, 128, 0.5); /* Enhance shadow on hover */
+}
+
 
 @media(max-width:767px){
     .ContactUs .hero-content{
         margin-top: 15px !important;
+    }
+}
+@media(max-width:520px){
+    .highlight-title{
+        font-size: 22px;
+        line-height: 40px !important;
     }
 }

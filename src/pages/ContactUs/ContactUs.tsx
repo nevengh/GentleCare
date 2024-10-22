@@ -2,17 +2,21 @@ import './ContactUs.css'
 import { useLanguage } from '../../LanguageContext'
 import en from '../../locales/en'
 import ar from '../../locales/ar'
+// import SeoComponnent from '../../components/SeoComponnent/SeoComponnent'
 const ContactUs = () => {
     const { language } = useLanguage();
     const translations = language === "en" ? en : ar;
   return (
     <div className='ContactUs'>
+      
         <h1 className='contact_title'>{translations.ContactUs}</h1>
          <div className="hero-content">
          <div className="left-section">
-          <h1>
-          {translations.slaes1}<span className='sales'>{translations.sales} </span>{translations.sales2}
-          </h1>
+         <h1 className="highlight-title">
+    {translations.slaes1} 
+    <span className="sales-highlight"> {translations.sales} </span>
+      {translations.sales2}
+  </h1>
         </div>
         <div className="right-section">
             
