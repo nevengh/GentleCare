@@ -74,10 +74,14 @@
     .ContactUs .hero-content{
         margin-top: 15px !important;
     }
+    .highlight-title{
+        font-size: 22px !important;
+        line-height: 40px !important;
+    }
 }
 @media(max-width:520px){
     .highlight-title{
-        font-size: 22px;
+        font-size: 18px !important;
         line-height: 40px !important;
     }
 }
