@@ -56,7 +56,7 @@ const en: Translations = {
     "World-Class Dental & Skin Care in Sharjah – Book a Free Consultation with UAE’s Top Experts",
   heroSubhead:
     "Providing You with the Latest Technologies and Renowned Specialists in Dentistry and Dermatology",
-    sales:"500 AED",
+    sales:"350 AED",
     slaes1:"Cleaning and zoom whitening ",
     sales2:"  till December 1st",
     OurStaff:"Our Staff",

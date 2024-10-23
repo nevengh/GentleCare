@@ -2,7 +2,6 @@ import './ContactUs.css'
 import { useLanguage } from '../../LanguageContext'
 import en from '../../locales/en'
 import ar from '../../locales/ar'
-// import SeoComponnent from '../../components/SeoComponnent/SeoComponnent'
 const ContactUs = () => {
     const { language } = useLanguage();
     const translations = language === "en" ? en : ar;
