@@ -70,4 +70,41 @@ HeroTitle:string;
 GalleryTitle:string;
 GalleryKeys:string;
 GalleryDesc:string;
+hero: {
+    title: string;
+    description: string;
+    keywords: string;
+    url: string;
+  };
+  about: {
+    title: string;
+    description: string;
+    keywords: string;
+    url: string;
+  };
+  ourCenter: {
+    title: string;
+    description: string;
+    keywords: string;
+    url: string;
+  };
+  OurServices: {
+    title: string;
+    description: string;
+    keywords: string;
+    url: string;
+  };
+  gallery: {
+    title: string;
+    description: string;
+    keywords: string;
+    url: string;
+  };
+  contact: {
+    title: string;
+    description: string;
+    keywords: string;
+    url: string;
+  };
+  Braces:string;
 }

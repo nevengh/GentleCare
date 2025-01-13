@@ -2,7 +2,7 @@ import { Carousel } from 'react-bootstrap';
 import ServicesCard from "../../components/ServicesCard/ServicesCard";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./OurServices.css";
-import botox from '../../assets/images/serviceIcon/lip-augmentation_3835042.svg'
+import fillerImage from '../../assets/images/serviceIcon/lip-augmentation_3835042.svg'
 import tooth from '../../assets/images/serviceIcon/hollywood.svg';
 import digital from '../../assets/images/serviceIcon/Digital.svg'
 import gummy from '../../assets/images/serviceIcon/smile_3818319.svg'
@@ -30,17 +30,17 @@ const OurServices = () => {
       img_alt: translations.DigitalSmileDesign,
       img_url: digital
     },
-    {
-      title: translations.Botox,
-      description: translations.botoxDesc,
-      img_alt: translations.Botox,
-      img_url: botox
-    },
+    // {
+    //   title: translations.Botox,
+    //   description: translations.botoxDesc,
+    //   img_alt: translations.Botox,
+    //   img_url: botox
+    // },
     {
       title: translations.Filler,
       description: translations.fillerDesc,
       img_alt: translations.Filler,
-      img_url: botox
+      img_url: fillerImage
     },
     {
       title: translations.GummySmileCorrection,

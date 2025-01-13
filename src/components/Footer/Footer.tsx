@@ -31,11 +31,11 @@ const Footer = () => {
 
             <div className="phone_number">
               <h3>{translations.CallUs}</h3>
-              <a href="05 06312787">
-                <p>05 06312787</p>
+              <a href="tel:+971506312787">
+                <p>050-631-2787</p>
               </a>
-              <a href="065758757">
-                <p>065758757</p>
+              <a href="tel:+97165758757">
+                <p>06-575-8757</p>
               </a>
             </div>
           </div>
@@ -63,7 +63,14 @@ const Footer = () => {
 
             <div className="phone_number">
               <h3>{translations.Address}</h3>
-              <p className="location_text">{translations.location}</p>
+              <a
+                href="https://maps.app.goo.gl/faCbbihfv4gVhr5e7"
+                target="_blank"
+                rel="noopener noreferrer"
+                
+              >
+                <p className="location_text">{translations.location}</p>
+              </a>
             </div>
           </div>
           <div className="socil_text_con">
@@ -125,7 +132,7 @@ const Footer = () => {
             </svg>
           </a>
           {/* Facebook */}
-          <a href="https://www.facebook.com/profile.php?id=61564899843542&mibextid=ZbWKwL">
+          <a href="https://www.facebook.com/profile.php?id=61569178075561">
             <svg
               width="38"
               height="38"

@@ -16,6 +16,7 @@
   }
   .location_text{
     width: 200px;
+    cursor: pointer;
   }
 .phone_number h3{
     margin: 0 !important;

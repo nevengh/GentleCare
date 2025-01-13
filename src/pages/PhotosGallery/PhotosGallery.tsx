@@ -3,20 +3,20 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./PhotosGallery.css";
-import beforeImage from "../../assets/images/New folder/شفاف1.jpeg";
-import afterImage from "../../assets/images/New folder/شفاف2.jpeg";
-import afterImage1 from "../../assets/images/New folder/ابتسامة1.jpeg";
-import beforeImage1 from "../../assets/images/New folder/ابتسامة2.jpeg";
-import beforeImage2 from "../../assets/images/New folder/تثويم1.jpeg";
-import afterImage2 from "../../assets/images/New folder/تقويم2.jpeg";
-import beforeImage3 from '../../assets/images/New folder/فقد1.jpeg'
-import afterImage3 from '../../assets/images/New folder/فقد2.jpeg'
+import beforeImage from "../../assets/images/New folder/شفاف1.webp";
+import afterImage from "../../assets/images/New folder/شفاف2.webp";
+import afterImage1 from "../../assets/images/New folder/ابتسامة1.webp";
+import beforeImage1 from "../../assets/images/New folder/ابتسامة2.webp";
+import beforeImage2 from "../../assets/images/New folder/تثويم1.webp";
+import afterImage2 from "../../assets/images/New folder/تقويم2.webp";
+import beforeImage3 from '../../assets/images/New folder/فقد1.webp'
+import afterImage3 from '../../assets/images/New folder/فقد2.webp'
 import beforeImage4 from '../../assets/images/New folder/لثة_قبل.jpeg'
-import afterImage4 from '../../assets/images/New folder/لثة_بعد.jpeg'
-import beforeImage5 from '../../assets/images/New folder/فينير1.jpeg'
-import afterImage5 from '../../assets/images/New folder/فينير2.jpeg';
-import beforeImage6 from '../../assets/images/New folder/تبييض1.jpeg'
-import afterImage6 from '../../assets/images/New folder/تبييض2.jpeg';
+import afterImage4 from '../../assets/images/New folder/لثة_بعد.webp'
+import beforeImage5 from '../../assets/images/New folder/فينير1.webp'
+import afterImage5 from '../../assets/images/New folder/فينير2.webp';
+import beforeImage6 from '../../assets/images/New folder/تبييض1.webp'
+import afterImage6 from '../../assets/images/New folder/تبييض2.webp';
 // Define the types for the arrow props
 interface ArrowProps {
   className?: string;
